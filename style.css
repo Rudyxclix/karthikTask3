@@ -1,0 +1,27 @@
+/* Smooth Scroll for Sections */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Navbar Styling */
+.navbar-dark .navbar-nav .nav-link {
+    transition: color 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f1c40f;
+}
+
+/* Hero Section */
+#home {
+    background-attachment: fixed;
+}
+
+/* Shadow for Cards */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
